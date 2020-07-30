@@ -1,0 +1,181 @@
+body {
+	background-color: #00508294;
+	font-family: 'Mukta', sans-serif;
+	color: #383e56;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+.sidebar {
+	background-color: #ffffff5e;
+	position: fixed;
+	width: 150px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 240px;
+	color: white;
+	border-right: double;
+}
+
+.sidebar a {
+	font-size: 20px;
+	padding: 10px;
+	line-height: 2.5;
+}
+
+.sidebar a:hover {
+	color: white;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.page-content {
+	margin-left: 200px;
+}
+
+#profile img {
+	border-radius: 50%;
+}
+
+#profile p {
+	font-size: 20px;
+}
+
+#profile:hover {
+	background-color: #f7fbe1;
+}
+
+.container {
+	width: 700px; /* set width of your container */
+	margin: 10px auto; /* set margins top/bottom: 40px; left/right: auto; */
+}
+
+.container p {
+	text-align: center;
+}
+
+.card-white {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	text-align: none;
+	margin: 30px;
+	padding: 20px;
+}
+
+.card-white:hover {
+	background-color: #cfe5cf;
+}
+
+h2, h3 {
+	font-family: 'Slabo 27px', serif;
+	color: #204051;
+	font-size: 22px;
+}
+
+a {
+	color: #3b6978;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: #5c2a9d;
+	text-decoration: none;
+}
+
+.red-button a {
+	background-color: #c70039;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: 0.2s;
+}
+
+.red-button a:hover {
+	background-color: #900d0d;
+}
+
+#contact:hover {
+	background-color: #c3edea;
+}
+
+.unordered-list ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.unordered-list li {
+	display: inline;
+	text-align: center;
+	list-style-position: center;
+	list-style: none;
+	padding-left: 4px;
+}
+
+/*
+.unordered-list {
+	list-style: none;
+	padding: auto;
+}
+
+.unordered-list li {
+	display: inline;
+	padding-l: 10px;
+	text-align: center;
+}
+
+.unordered-list li {
+	color: rgb(230, 230, 230);
+}
+
+.unordered-list li:hover {
+	color: black;
+}
+*/
+
+.blue-button a {
+	background-color: #01a9b4;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: 0.2s;
+}
+
+.blue-button a:hover {
+	background-color: #3282b8;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
